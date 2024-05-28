@@ -94,7 +94,7 @@ export default function Sidebar({ children }) {
 
   return (
     <>
-      <Box sx={{ display: "flex", mt: 3 }}>
+      <Box sx={{ display: "flex", mt: 8 }}>
         <CssBaseline />
         <Drawer variant="permanent" open={open}>
           <List
